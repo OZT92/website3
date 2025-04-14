@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <!-- JAVASCRIPT -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <title>willdesign</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="willdesign logo" src="img/wd-erkek-logo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#about">Hakkımızda</a></li>
+          <li><a class="main-nav-link" href="#projects">Projelerimiz</a></li>
+          <li><a class="main-nav-link" href="#services">Hizmetlerimiz</a></li>
+          <li><a class="main-nav-link nav-cta" href="#contact">İletişim</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Hayallerinizi gerçeğe dönüştüren iç mekan tasarımları.
+            </h1>
+            <p class="hero-description">
+              Modern, minimal ya da klasik çizgilerle; hayalinizdeki mekanı
+              gerçeğe dönüştürmek için buradayız. Mimari detaylara duyduğumuz
+              özen ve malzeme seçimindeki titizliğimizle, sadece şık değil, aynı
+              zamanda sürdürülebilir ve konforlu mekanlar tasarlıyoruz.
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Hayallerinizi Tasarlayalım</a
+            >
+            <a href="#how" class="btn btn--outline">Biz kimiz? &darr;</a>
+          </div>
+
+          <div class="hero-img-box">
+            <picture>
+              <source
+                srcset="img/WD-instagram-post-16-8-min.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="img/WD-instagram-post-16-8.png"
+                type="image/png"
+              />
+
+              <img
+                src="img/WD-instagram-post-16-8.png"
+                class="hero-img"
+                alt="will design slogan we will design your dreams into reality"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">Proje ortaklarımız</h2>
+          <div class="logos">
+            <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
+            <img
+              src="img/logos/business-insider.png"
+              alt="Business Insider logo"
+            />
+            <img
+              src="img/logos/the-new-york-times.png"
+              alt="The New York Times logo"
+            />
+            <img src="img/logos/forbes.png" alt="Forbes logo" />
+            <img src="img/logos/usa-today.png" alt="USA Today logo" />
+          </div>
+        </div>
+      </section>
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">Nasıl çalışıyoruz</span>
+          <h2 class="heading-secondary">
+            Hayallerinizi gerçeğe dönüştürmek için 3 adım.
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Keşif & Karar Verme</h3>
+            <p class="step-description">
+              Projenin ilk adımında, sizi ve ihtiyaçlarınızı dinliyoruz. Mekanı
+              yerinde inceliyor, yaşam tarzınızı, beklentilerinizi ve bütçenizi
+              analiz ediyoruz. Bu aşama, doğru tasarım kararlarını alabilmemiz
+              için zemin oluşturur.
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="img/vector/01-teamwork.png"
+              class="step-img"
+              alt="Keşif & Karar Verme"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img
+              src="img/vector/02-planlama.png"
+              class="step-img"
+              alt="Tasarım & Konsept Geliştirme"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Tasarım & Konsept Geliştirme</h3>
+            <p class="step-description">
+              Edindiğimiz bilgiler ışığında mekanınıza özel yaratıcı çözümler
+              geliştiriyoruz. Plan çizimleri, 3D görseller ve malzeme önerileri
+              ile size en uygun konsepti sunuyoruz. Her detay, estetik ve
+              işlevselliği dengede tutacak şekilde tasarlanır.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Uygulama & Proje Yönetimi</h3>
+            <p class="step-description">
+              Tasarım onaylandıktan sonra süreci şeffaf ve planlı bir şekilde
+              hayata geçiriyoruz. Malzeme temininden uygulama koordinasyonuna
+              kadar tüm süreç Willdesign güvencesiyle yönetilir. Sonuç:
+              eksiksiz, kaliteli ve zamanında teslim edilen bir yaşam alanı.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/vector/03-uygulama.png"
+              class="step-img"
+              alt="Uygulama & Proje Yönetimi"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

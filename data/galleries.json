@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Almaty",
+    "images": [
+      {
+        "src": "./media/1920X1080/01-Almaty/Almaty-01.png",
+        "alt": "Almaty"
+      },
+      {
+        "src": "./media/1920X1080/01-Almaty/Almaty-02.png",
+        "alt": "Almaty"
+      },
+      {
+        "src": "./media/1920X1080/01-Almaty/Almaty-03.png",
+        "alt": "Almaty"
+      },
+      {
+        "src": "./media/1920X1080/01-Almaty/Almaty-04.png",
+        "alt": "Almaty"
+      }
+    ]
+  },
+  {
+    "name": "Lapis",
+    "images": [
+      {
+        "src": "./media/1920X1080/02-Lapis/Lapis-01.png",
+        "alt": "Lapis"
+      },
+      {
+        "src": "./media/1920X1080/02-Lapis/Lapis-02.png",
+        "alt": "Lapis"
+      },
+      {
+        "src": "./media/1920X1080/02-Lapis/Lapis-03.png",
+        "alt": "Lapis"
+      },
+      {
+        "src": "./media/1920X1080/02-Lapis/Lapis-04.png",
+        "alt": "Lapis"
+      },
+      {
+        "src": "./media/1920X1080/02-Lapis/Lapis-05.png",
+        "alt": "Lapis"
+      }
+    ]
+  },
+  {
+    "name": "IDvilla",
+    "images": [
+      {
+        "src": "./media/1920X1080/03-IDvilla/IDvilla-01.png",
+        "alt": "Lapis"
+      },
+      {
+        "src": "./media/1920X1080/03-IDvilla/IDvilla-02.png",
+        "alt": "IDvilla"
+      },
+      {
+        "src": "./media/1920X1080/03-IDvilla/IDvilla-03.png",
+        "alt": "IDvilla"
+      },
+      {
+        "src": "./media/1920X1080/03-IDvilla/IDvilla-04.png",
+        "alt": "IDvilla"
+      },
+      {
+        "src": "./media/1920X1080/03-IDvilla/IDvilla-05.png",
+        "alt": "IDvilla"
+      },
+      {
+        "src": "./media/1920X1080/03-IDvilla/IDvilla-06.png",
+        "alt": "IDvilla"
+      },
+      {
+        "src": "./media/1920X1080/03-IDvilla/IDvilla-07.png",
+        "alt": "IDvilla"
+      }
+    ]
+  },
+  {
+    "name": "ODvilla",
+    "images": [
+      {
+        "src": "./media/1920X1080/04-ODvilla/ODvilla-01.png",
+        "alt": "Lapis"
+      },
+      {
+        "src": "./media/1920X1080/04-ODvilla/ODvilla-02.png",
+        "alt": "ODvilla"
+      },
+      {
+        "src": "./media/1920X1080/04-ODvilla/ODvilla-03.png",
+        "alt": "IDvilla"
+      },
+      {
+        "src": "./media/1920X1080/04-ODvilla/ODvilla-04.png",
+        "alt": "ODvilla"
+      }
+    ]
+  },
+  {
+    "name": "Aksa",
+    "images": [
+      {
+        "src": "./media/1920X1080/05-Aksa/Aksa-01.png",
+        "alt": "Lapis"
+      },
+      {
+        "src": "./media/1920X1080/05-Aksa/Aksa-02.png",
+        "alt": "Aksa"
+      },
+      {
+        "src": "./media/1920X1080/05-Aksa/Aksa-03.png",
+        "alt": "IDvilla"
+      },
+      {
+        "src": "./media/1920X1080/05-Aksa/Aksa-04.png",
+        "alt": "Aksa"
+      },
+      {
+        "src": "./media/1920X1080/05-Aksa/Aksa-05.png",
+        "alt": "Aksa"
+      }
+    ]
+  }
+]
